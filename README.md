@@ -50,7 +50,7 @@ Yes, see `src/monitor.py` which contains a function to compute the Wasserstein d
 - Was there an attempt to isolate the read/write unit tests from production models and logs?\
 Yes, see `src/log.py`.
 - Does the API work as expected? For example, can you get predictions for a specific country as well as for all countries combined?\
-Yes, use `curl --request POST 'http://127.0.0.1/predict?date=2018-11-20'` or `curl --request POST 'http://127.0.0.1/predict?date=2018-11-20&country=Australia'`
+Yes, use `curl --request POST 'http://127.0.0.1/predict?date=2018-11-20'` or `curl --request POST 'http://127.0.0.1/predict?date=2018-11-20&country=United Kingdom'`
 - Does the data ingestion exists as a function or script to facilitate automation?\
 Yes, see `src/ingest.py`.
 - Were multiple models compared?\
